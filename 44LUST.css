@@ -12,28 +12,13 @@ body{
     display: flex;
     border-style: solid;
     border-color: white;
-    width: 70%;
+    height: 10%;
     background-color: black;
-}
-
-.whole{
-    display: flex;
-    flex-direction: column;
-}
-
-.stills{
-    float: right;
-}
-
-.still{
-    display: block;
-    height: 20%;
 }
 
 .logo{ 
     display: block;
     float: left;
-    width: 22%;
 }
 
 p1{
