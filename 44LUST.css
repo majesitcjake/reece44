@@ -18,9 +18,11 @@ body{
 
 .logo{ 
     float: left;
+    align-items: flex-start;
 }
 
 p1{
+    position: relative;
     margin: 10px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
