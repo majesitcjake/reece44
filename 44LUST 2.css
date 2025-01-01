@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    background-image: url(newone.gif);
+    background-repeat: round;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.topbox{
+    border-width:2px;
+    border-style:solid;
+    border-color:white;
+    background-color: black;
+}
+
+.bottombox{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16.5px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16.5px;
+    color: white;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    bottom: 0px;
+}
+
+.contact{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16.5px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 5px;
+}
+
+.social{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16.5px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 5px;
+}
+
+a{
+    text-decoration: underline;
+    color: white
+}
