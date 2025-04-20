@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    background-image: url(newone.gif);
+    /* background-image: url(newone.gif); */
     background-repeat: round;
     overflow-y: hidden;
     overflow-x: hidden;
